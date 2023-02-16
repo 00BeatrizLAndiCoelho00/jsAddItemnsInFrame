@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    min-height: 50vh;
+    background-color: brown;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 32px;
+    padding: 12px;
+    color: aliceblue;
+}
+
+.items{
+    height: 200px;
+    width: 200px;
+    background-color: cadetblue;
+}
